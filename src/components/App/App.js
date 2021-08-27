@@ -10,7 +10,6 @@ class App extends React.Component {
         <h1 className={styles.title}>My first React app</h1>
         <h2 className={styles.subtitle}>Hello everyone!</h2>
         <List />
-        <Hero />
       </main>
     )
   }
