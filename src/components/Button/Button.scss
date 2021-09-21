@@ -23,5 +23,10 @@
     &:hover {
       background: darken($color-warning, 5%);
     }
+    &.outline {
+      border: 2px solid $color-warning;
+      background: transparent;
+      color: $color-warning;
+    }
   }
 }
