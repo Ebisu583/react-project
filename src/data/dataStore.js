@@ -15,6 +15,14 @@ export const settings = {
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+  info: {
+    title: 'info',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
+  FAQ: {
+    title: 'FAQ',
+    image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  },
 };
 
 export const listData = {
@@ -144,5 +152,7 @@ const initialStoreData = {
   columns: [...columns],
   cards: [...cards],
 };
+
+
 
 export default initialStoreData;
