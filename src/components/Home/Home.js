@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Home.scss';
 import PropTypes from 'prop-types';
-import ListContainer from '../List/ListContainer';
-import Search from '../Search/SearchContainer';
+import ListLink from '../ListLink/ListLink';
+// import Search from '../Search/SearchContainer';
 import Container from '../Container/Container';
 // import {pageContents, listData} from '../../data/dataStore';
 // import Creator from '../Creator/Creator';
@@ -56,9 +56,9 @@ class Home extends React.Component {
         <h1 className={styles.title}>{title}</h1>
         <h2 className={styles.subtitle}>{subtitle}</h2>
         <Container>
-          <Search />
+          {/* <Search /> */}
           {lists.map(listData => (
-            <ListContainer key={listData.id} {...listData} />
+            <ListLink key={listData.id} {...listData} />
           ))}
           {/*
         <List {...listData} />
